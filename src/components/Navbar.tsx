@@ -62,7 +62,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="px-4 p-2 sticky z-[50] h-16 top-0 w-full backdrop-blur-lg flex items-center justify-between border-b border-gray-200 bg-white/75 transition-all">
+    <nav className="sticky z-[50] h-16 top-0 px-4 p-2 w-full backdrop-blur-lg flex items-center justify-between border-b border-gray-200 bg-white/75 transition-all">
       <div className="flex items-center space-x-4">
         <Sheet>
           <SheetTrigger>
