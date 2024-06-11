@@ -67,24 +67,121 @@ export default function Home() {
       <MaxWidthWrapper>
         <section>
           <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-3 p-5">
-            {cat.map((c, i) => (
-              <Card
-                className="hover:shadow-md transition hover:text-red-600"
-                key={i}
-              >
-                <CardHeader className="text-center">
-                  <CardTitle className="text-lg">card title</CardTitle>
-                </CardHeader>
-                <CardContent className="text-center cursor-pointer transition hover:scale-110">
-                  <Image
-                    src="/Briefpapier 210x297.png"
-                    width={410}
-                    height={497}
-                    alt="cat-img"
-                  />
-                </CardContent>
-              </Card>
-            ))}
+            <Card className="hover:shadow-md transition hover:text-red-600">
+              <CardHeader className="text-center">
+                <CardTitle className="text-lg">Flyer</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center cursor-pointer transition hover:scale-110">
+                <Image
+                  src="/cards/cat-10.png"
+                  width={410}
+                  height={497}
+                  alt="cat-img"
+                />
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-md transition hover:text-red-600">
+              <CardHeader className="text-center">
+                <CardTitle className="text-lg">Dépliant</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center cursor-pointer transition hover:scale-110">
+                <Image
+                  src="/cards/cat-6.png"
+                  width={410}
+                  height={497}
+                  alt="cat-img"
+                />
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-md transition hover:text-red-600">
+              <CardHeader className="text-center">
+                <CardTitle className="text-lg">
+                  Brochures & Catalogues
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center cursor-pointer transition hover:scale-110">
+                <Image
+                  src="/cards/cat-4.png"
+                  width={410}
+                  height={497}
+                  alt="cat-img"
+                />
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-md transition hover:text-red-600">
+              <CardHeader className="text-center">
+                <CardTitle className="text-lg">Cartes de visite</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center cursor-pointer transition hover:scale-110">
+                <Image
+                  src="/cards/cat-5.png"
+                  width={410}
+                  height={497}
+                  alt="cat-img"
+                />
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-md transition hover:text-red-600">
+              <CardHeader className="text-center">
+                <CardTitle className="text-lg">
+                  Feuille d'impression plano
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center cursor-pointer transition hover:scale-110">
+                <Image
+                  src="/cards/cat-2.png"
+                  width={410}
+                  height={497}
+                  alt="cat-img"
+                />
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-md transition hover:text-red-600">
+              <CardHeader className="text-center">
+                <CardTitle className="text-lg">Papier à lettres</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center cursor-pointer transition hover:scale-110">
+                <Image
+                  src="/cards/cat-1.png"
+                  width={410}
+                  height={497}
+                  alt="cat-img"
+                />
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-md transition hover:text-red-600">
+              <CardHeader className="text-center">
+                <CardTitle className="text-lg">Roll-ups</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center cursor-pointer transition hover:scale-110">
+                <Image
+                  src="/cards/cat-3.png"
+                  width={410}
+                  height={497}
+                  alt="cat-img"
+                />
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-md transition hover:text-red-600">
+              <CardHeader className="text-center">
+                <CardTitle className="text-lg">Affichers & posters</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center cursor-pointer transition hover:scale-110">
+                <Image
+                  src="/cards/cat-9.png"
+                  width={410}
+                  height={497}
+                  alt="cat-img"
+                />
+              </CardContent>
+            </Card>
           </div>
           <div className="flex justify-center">
             <Button variant={"outline"}>Afficher tout le produits</Button>
@@ -96,7 +193,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="text-center cursor-pointer transition hover:scale-110">
                 <Image
-                  src="/Briefpapier 210x297.png"
+                  src="/cards/cat-7.png"
                   width={410}
                   height={497}
                   alt="cat-img"
@@ -109,7 +206,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="text-center cursor-pointer transition hover:scale-110">
                 <Image
-                  src="/Briefpapier 210x297.png"
+                  src="/cards/cat-8.png"
                   width={410}
                   height={497}
                   alt="cat-img"
@@ -122,7 +219,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="text-center cursor-pointer transition hover:scale-110">
                 <Image
-                  src="/Briefpapier 210x297.png"
+                  src="/cards/cat-11.png"
                   width={410}
                   height={497}
                   alt="cat-img"
@@ -135,7 +232,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="text-center cursor-pointer transition hover:scale-110">
                 <Image
-                  src="/Briefpapier 210x297.png"
+                  src="/cards/cat-12.png"
                   width={410}
                   height={497}
                   alt="cat-img"
